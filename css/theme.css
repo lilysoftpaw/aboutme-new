@@ -68,6 +68,10 @@ body {
   .card {
     flex-direction: column;
   }
+  .name {
+    margin-left: 0;
+    margin-top: 20px;
+  }
   .usericon{
     width: 10rem;
     margin-bottom: 20px;
