@@ -154,6 +154,14 @@ a.link{
     text-decoration: none;
     
 }
+.link>img.icon {
+    margin-right: 0.5rem;
+    width: 35px;
+    height: 35px;
+}
+.link>img.linkicon{
+    margin-left : 0.5rem;
+}
 
 a:hover, a:visited, a:link, a:active
 {
@@ -163,6 +171,7 @@ a:hover, a:visited, a:link, a:active
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     margin-top: 1.25rem;
