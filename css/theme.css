@@ -68,6 +68,11 @@ body {
   .card {
     flex-direction: column;
   }
+  .card-container{
+    flex-direction: column;
+    justify-content: flex-start;
+    height: fit-content;
+  }
   .name {
     margin-left: 0;
     margin-top: 20px;
