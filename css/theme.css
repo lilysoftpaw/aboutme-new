@@ -261,11 +261,11 @@ div.service-listing>ul.service-listing{
     background-color: #2d0d18;
     border-color: #832947;
 }
-.link#avatar-comissions{
+.link#avatar-comissions, .link#email{
     background-color: #5500ab;
     border-color: #2d0054;
 }
-.link#avatar-comissions:hover{
+.link#avatar-comissions:hover, .link#email:hover{
     background-color: rgb(90, 41, 138);
     border-color: #53009b;
 }
