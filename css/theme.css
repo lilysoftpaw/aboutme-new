@@ -11,6 +11,9 @@ body {
     align-items: center;
     height: 100vh;
 }
+.service-card-container{
+    height: fit-content;
+}
 
 .card {
     background-color: rgba(0, 0, 0, 0.4);
@@ -61,6 +64,58 @@ body {
 .name>p{
     font-family: 'FOT-Yuruka Std', Arial, sans-serif;
     font-size: 1.67rem;
+    color: white;
+}
+
+
+.subpage-description {
+    width:100%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subpage-description>h1{
+    font-family: 'FOT-Yuruka Std', Arial, sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    margin: 0.25rem;
+}
+.subpage-description>h2{
+    font-family: 'FOT-Yuruka Std', Arial, sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    margin: 0.25rem;
+}
+
+.subpage-description>p.service-description{
+    text-align:justify;
+    font-family: 'FOT-Yuruka Std', Arial, sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+div.service-listing>h3{
+    font-family: 'FOT-Yuruka Std', Arial, sans-serif;
+    font-size: 1.25rem;
+    color: white;
+}
+div.service-listing>h4{
+    font-family: 'FOT-Yuruka Std', Arial, sans-serif;
+    font-size: 1.10rem;
+    color: white;
+}
+div.service-listing>ul.service-listing{
+    text-align:justify;
+    font-family: 'FOT-Yuruka Std', Arial, sans-serif;
+    font-size: 1rem;
+    color: white;
+    padding-left: 1rem;
+}
+.subpage-description>p.disclamers{
+    text-align:justify;
+    font-family: 'FOT-Yuruka Std', Arial, sans-serif;
+    font-size: 0.5rem;
     color: white;
 }
 
@@ -206,6 +261,15 @@ body {
     background-color: #2d0d18;
     border-color: #832947;
 }
+.link#avatar-comissions{
+    background-color: #5500ab;
+    border-color: #2d0054;
+}
+.link#avatar-comissions:hover{
+    background-color: rgb(90, 41, 138);
+    border-color: #53009b;
+}
+
 div.link{   
     display: flex;
     flex-direction: row;
